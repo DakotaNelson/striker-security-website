@@ -7,3 +7,11 @@
 #mc-embedded-subscribe {
   margin-top: 15px;
 }
+
+#mc_embed_signup_scroll {
+  overflow: auto;
+}
+
+#footer .inner form {
+  width: 100%;
+}
