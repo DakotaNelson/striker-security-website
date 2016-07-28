@@ -1742,7 +1742,7 @@
   }
 
     .button:hover {
-      background: #B86571;
+      background: #bc6e6e;
     }
 
     .button.alt {
@@ -2284,6 +2284,10 @@
       font-family: 'Fjalla One', sans-serif;
       font-size: 1.1em;
       color: #fff;
+      -moz-transition: background-color 0.25s ease-in-out;
+      -webkit-transition: background-color 0.25s ease-in-out;
+      -ms-transition: background-color 0.25s ease-in-out;
+      transition: background-color 0.25s ease-in-out;
     }
 
     #newsletter .submit:hover {

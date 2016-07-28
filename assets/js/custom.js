@@ -3,7 +3,7 @@
     $('#newsletter .submit').on("click", function() {
       ga('send', 'event', 'NewsletterSignup', 'Submit');
 
-      // TODO actually send the data (formspree?)
+      // TODO actually send the data to mailchimp
       var emailAddress = $("#newsletter input[name=email]").val();
 
       event.preventDefault();
@@ -23,6 +23,10 @@
       // if (!emailAddress) {
       //   console.log("no email address given");
       // }
+
+      $("#form-result").text("Thanks! We're excited to follow up with you soon.");
+
+      document.getElementById('contact-form').reset();
 
       event.preventDefault();
     });
