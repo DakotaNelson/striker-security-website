@@ -85,6 +85,21 @@
     width: 1200px;
   }
 
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+  }
+
+  .videoWrapper iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+  }
+
   @media screen and (max-width: 1280px) {
 
     .container.\31 25\25 {
@@ -2096,6 +2111,7 @@
     margin: 1em 0em;
   }
 
+
 /* Featured */
 
   #featured {
@@ -2500,6 +2516,10 @@
         padding: 0.50em;
       }
 
+      #sidebar .button#contact-us-sidebar {
+        display: none;
+      }
+
     /* Lists */
 
       ul.icons > li {
@@ -2810,5 +2830,4 @@
         #portfolio .pbox3 {
           padding: 0;
         }
-
   }
