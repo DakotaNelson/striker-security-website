@@ -2519,6 +2519,7 @@
     /* Off-Canvas Navigation */
 
       #page-wrapper {
+        background: #ffffff;
         -moz-backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
         -ms-backface-visibility: hidden;
@@ -2681,6 +2682,7 @@
       }
 
       #header {
+        margin-bottom: 60px;
         padding: 5em 0em !important;
       }
 
