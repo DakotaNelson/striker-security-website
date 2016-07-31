@@ -6,16 +6,16 @@
 -->
 <html>
   <head>
-    <title>Contact - Striker Security</title>
+    <title>Exploratory OSINT With Jupyter Notebooks - Striker Security Blog</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="/assets/css/main.css" />
-    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-    <link href="http://www.strikersecurity.com/contact/" rel="canonical" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+    <link href="http://www.strikersecurity.com/blog/sneaky-creeper-bslv-talk-data-exfiltration.html" rel="canonical" />
   </head>
-  <body class="contact">
+  <body class="right-sidebar">
     <div id="page-wrapper">
 
       <!-- Header -->
@@ -46,57 +46,43 @@
 
               <!-- Content -->
                 <div id="content" class="8u 12u(mobile)">
-                  <section class="12u">
-
+                  <article>
                     <header>
-                      <h2>Contact</h2>
+                      <img src="/images/road-ahead.jpg"></img>
+                      <h2>Exploratory OSINT with Jupyter Notebooks</h2>
+                      <span class="byline">Because communication matters</span>
+                      <span><i>Dakota Nelson</i></span><br>
+                      <span><i>July 29, 2016</i></span>
                     </header>
 
-                    <form method="post" action="#" id="contact-form">
-                      <div class="row 50%">
-                        <div class="6u 12u(mobile)">
-                          <input type="text" name="name" id="name" placeholder="Name" />
-                        </div>
-                        <div class="6u 12u(mobile)">
-                          <input type="text" name="email" id="email" placeholder="Email" />
-                        </div>
-                      </div>
-                      <div class="row 50%">
-                        <div class="12u">
-                          <input type="text" name="subject" id="subject" placeholder="Subject" />
-                        </div>
-                      </div>
-                      <div class="row 50%">
-                        <div class="12u">
-                          <textarea name="message" id="message" placeholder="Message"></textarea>
-                        </div>
-                      </div>
-                      <div class="row 50%">
-                        <div class="12u">
-                          <input type="submit" class="button" id="send-message" value="Send Message"></a>
-                        </div>
-                        <p id="form-result">&nbsp;</p>
-                      </div>
-                    </form>
-                  </section>
-                  <br>
+                    <p>One of the most difficult parts of OSINT gathering (for me) is visualization and reporting of the data - and, worse, the process. Recording terminal output into terrible messy text files is far too raw to be of much use, and taking constant screenshots can be a pain - not to mention that the resulting images still require plenty of captioning, usually after the fact.</p>
 
+                    <p>Thankfully, I get a lot of help from a development platform used heavily among the data science community known as Jupyter (formerly iPython Notebooks).</p>
+
+                    <br>
+                    <i>Was this useful? Consider giving us your email below so we can send you more great stuff!</i>
+
+                  </article>
                 </div>
 
               <!-- Sidebar -->
                 <div id="sidebar" class="4u 12u(mobile)">
+
                   <section>
-                    <ul class="info">
-                      <li>
-                        <h3>Mail</h3>
-                        <p><a href="mailto:consulting@strikersecurity.com">consulting@strikersecurity.com</a></p>
-                      </li>
-                      <!-- <li> -->
-                      <!--   <h3>Phone</h3> -->
-                      <!--   <p>(800) 000&#45;0000</p> -->
-                      <!-- </li> -->
+                    <header>
+                      <h2>Other Posts</h2>
+                    </header>
+                    <ul class="style1">
+                      <li><a href="/blog/">First invoice!</a></li>
+                      <li><a href="/blog/posts/twitter-monitoring-streaming-api.html">Easy Realtime Twitter Monitoring</a></li>
+                      <li><a href="/blog/posts/sneaky-creeper-bslv-talk-data-exfiltration.html">Sneaky-creeper Presented at BSides Las Vegas</a></li>
+                      <li><a href="#">Amet ornare in hendrerit in lectus</a></li>
+                      <li><a href="#">Consequat etiam lorem phasellus</a></li>
+                      <li><a href="#">Amet turpis, feugiat et sit amet</a></li>
                     </ul>
+                    <a href="/contact/" class="button">Contact Us</a>
                   </section>
+
                 </div>
 
             </div>
@@ -111,7 +97,7 @@
               <!-- Email -->
                 <section class="4u 12u(mobile)">
                   <h3>Email</h3>
-                  <a href="#">consulting@strikersecurity.com</a>
+                  <a href="mailto:consulting@strikersecurity.com">consulting@strikersecurity.com</a>
                 </section>
 
               <!-- Newsletter -->
@@ -139,11 +125,11 @@
                   <!--End mc_embed_signup-->
                 </section>
 
-              <!-- Phone -->
-                <!-- <section class="4u 12u(mobile)"> -->
-                <!--   <h3>Phone</h3> -->
-                <!--   <span>(000) 000&#45;000</span> -->
-                <!-- </section> -->
+              <!-- <!&#45;&#45; Phone &#45;&#45;> -->
+              <!--   <section class="4u 12u(mobile)"> -->
+              <!--     <h3>Phone</h3> -->
+              <!--     <span>(000) 000&#45;000</span> -->
+              <!--   </section> -->
 
             </div>
           </div>
@@ -165,6 +151,7 @@
       <script src="/assets/js/util.js"></script>
       <!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
       <script src="/assets/js/main.js"></script>
+
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

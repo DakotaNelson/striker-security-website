@@ -6,16 +6,16 @@
 -->
 <html>
   <head>
-    <title>Contact - Striker Security</title>
+    <title>Services - Striker Security</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="/assets/css/main.css" />
-    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-    <link href="http://www.strikersecurity.com/contact/" rel="canonical" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+    <link href="http://www.strikersecurity.com/services/" rel="canonical" />
   </head>
-  <body class="contact">
+  <body class="no-sidebar">
     <div id="page-wrapper">
 
       <!-- Header -->
@@ -34,7 +34,6 @@
                   <li><a href="/contact/" id="nav-contact">Contact</a></li>
                 </ul>
               </nav>
-
           </div>
         </div>
 
@@ -42,64 +41,26 @@
         <div id="main" class="light">
           <div class="container">
 
-            <div class="row">
-
-              <!-- Content -->
-                <div id="content" class="8u 12u(mobile)">
-                  <section class="12u">
-
+            <!-- Content -->
+              <div class="row">
+                <div id="content" class="12u">
+                  <article>
                     <header>
-                      <h2>Contact</h2>
+                      <h2>Hey, thanks...</h2>
+                      <span class="byline">...we really appreciate your trust!</span>
                     </header>
 
-                    <form method="post" action="#" id="contact-form">
-                      <div class="row 50%">
-                        <div class="6u 12u(mobile)">
-                          <input type="text" name="name" id="name" placeholder="Name" />
-                        </div>
-                        <div class="6u 12u(mobile)">
-                          <input type="text" name="email" id="email" placeholder="Email" />
-                        </div>
-                      </div>
-                      <div class="row 50%">
-                        <div class="12u">
-                          <input type="text" name="subject" id="subject" placeholder="Subject" />
-                        </div>
-                      </div>
-                      <div class="row 50%">
-                        <div class="12u">
-                          <textarea name="message" id="message" placeholder="Message"></textarea>
-                        </div>
-                      </div>
-                      <div class="row 50%">
-                        <div class="12u">
-                          <input type="submit" class="button" id="send-message" value="Send Message"></a>
-                        </div>
-                        <p id="form-result">&nbsp;</p>
-                      </div>
-                    </form>
-                  </section>
-                  <br>
+                    <p>Please check your email and confirm your signup to get occasional messages with our best stuff inside on topics like security, software development, OSINT and more. Thanks for your interest!</p>
 
+                    <br>
+                    <br>
+
+                    <p><i>(P.S. - you can always email me personally at <a href="mailto:dakota@strikersecurity.com">dakota@strikersecurity.com</a>. I'd love to hear from you!)</i></p>
+
+                  </article>
                 </div>
+              </div>
 
-              <!-- Sidebar -->
-                <div id="sidebar" class="4u 12u(mobile)">
-                  <section>
-                    <ul class="info">
-                      <li>
-                        <h3>Mail</h3>
-                        <p><a href="mailto:consulting@strikersecurity.com">consulting@strikersecurity.com</a></p>
-                      </li>
-                      <!-- <li> -->
-                      <!--   <h3>Phone</h3> -->
-                      <!--   <p>(800) 000&#45;0000</p> -->
-                      <!-- </li> -->
-                    </ul>
-                  </section>
-                </div>
-
-            </div>
           </div>
         </div>
 
@@ -111,7 +72,7 @@
               <!-- Email -->
                 <section class="4u 12u(mobile)">
                   <h3>Email</h3>
-                  <a href="#">consulting@strikersecurity.com</a>
+                  <a id="footer-email" href="mailto:consulting@strikersecurity.com">consulting@strikersecurity.com</a>
                 </section>
 
               <!-- Newsletter -->
@@ -173,6 +134,7 @@
 
         ga('create', 'UA-81101403-1', 'auto');
         ga('send', 'pageview');
+        ga('send', 'event', 'NewsletterSignup', 'Submit');
       </script>
       <script src="/assets/js/custom.js"></script>
 

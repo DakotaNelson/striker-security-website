@@ -2244,13 +2244,13 @@
       padding-right: 10em;
     }
 
-/* Newsletter */
+/* mc-embedded-signup-form */
 
-  #newsletter {
+  #mc-embedded-subscribe-form {
     position: relative;
   }
 
-    #newsletter .text {
+    #mc-email {
       outline: none;
       height: 2.4em;
       padding: 0em 0.60em;
@@ -2266,31 +2266,36 @@
       color: #ccc;
     }
 
-    #newsletter .submit {
-      position: absolute;
-      right: 0;
-      top: 0;
-      height: 2.4em;
-      padding: 0 0.70em 0 0.70em;
-      //background: #B86571;
-      background: #B65555;
-      display: block;
-      border: 0;
-      line-height: 2.5em;
-      border-radius: 0px 5px 5px 0px;
-      letter-spacing: 0.10em;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-family: 'Fjalla One', sans-serif;
-      font-size: 1.1em;
-      color: #fff;
-      -moz-transition: background-color 0.25s ease-in-out;
-      -webkit-transition: background-color 0.25s ease-in-out;
-      -ms-transition: background-color 0.25s ease-in-out;
-      transition: background-color 0.25s ease-in-out;
+    #mc-embedded-subscribe {
+      margin-top: 10px;
     }
 
-    #newsletter .submit:hover {
+    /* #mc-embedded-subscribe { */
+    /*   position: absolute; */
+    /*   right: 0; */
+    /*   top: 0; */
+    /*   height: 2.4em; */
+    /*   padding: 0 0.70em 0 0.70em; */
+    /*   //background: #B86571; */
+    /*   background: #B65555; */
+    /*   display: block; */
+    /*   border: 0; */
+    /*   line-height: 2.5em; */
+    /*   border-radius: 0px 5px 5px 0px; */
+    /*   letter-spacing: 0.10em; */
+    /*   text-decoration: none; */
+    /*   text-transform: uppercase; */
+    /*   font-family: 'Fjalla One', sans-serif; */
+    /*   font-size: 1.1em; */
+    /*   color: #fff; */
+    /*   -moz-transition: background-color 0.25s ease-in-out; */
+    /*   -webkit-transition: background-color 0.25s ease-in-out; */
+    /*   -ms-transition: background-color 0.25s ease-in-out; */
+    /*   transition: background-color 0.25s ease-in-out; */
+    /*   margin-top: 10px; */
+    /* } */
+
+    #mc-embedded-subscribe:hover {
       background: #bc6e6e;
     }
 
