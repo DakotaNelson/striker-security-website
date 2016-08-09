@@ -1444,7 +1444,7 @@
 
   article p {
     color: #2E3141;
-    font-size: 110%;
+    font-size: 20px;
   }
 
 /* Images */
@@ -2098,7 +2098,7 @@
 /* Content */
 
   #content h3 {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 
 /* Sidebar */
