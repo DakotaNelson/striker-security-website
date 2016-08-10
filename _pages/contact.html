@@ -1,0 +1,90 @@
+---
+title: Cyber Security and Reconnaissance Consulting - Striker Security
+permalink: /contact/
+---
+<!DOCTYPE HTML>
+<!--
+  Venue by Pixelarity
+  pixelarity.com @pixelarity
+  License: pixelarity.com/license
+-->
+<html>
+  {% include head.html %}
+  <body class="contact">
+    <div id="page-wrapper">
+
+      {% include header.html %}
+
+      <!-- Main -->
+        <div id="main" class="light">
+          <div class="container">
+
+            <div class="row">
+
+              <!-- Content -->
+                <div id="content" class="8u 12u(mobile)">
+                  <section class="12u">
+
+                    <header>
+                      <h2>Contact</h2>
+                    </header>
+
+                    <form method="post" action="#" id="contact-form">
+                      <div class="row 50%">
+                        <div class="6u 12u(mobile)">
+                          <input type="text" name="name" id="name" placeholder="Name" />
+                        </div>
+                        <div class="6u 12u(mobile)">
+                          <input type="text" name="email" id="email" placeholder="Email" />
+                        </div>
+                      </div>
+                      <div class="row 50%">
+                        <div class="12u">
+                          <input type="text" name="subject" id="subject" placeholder="Subject" />
+                        </div>
+                      </div>
+                      <div class="row 50%">
+                        <div class="12u">
+                          <textarea name="message" id="message" placeholder="Message"></textarea>
+                        </div>
+                      </div>
+                      <div class="row 50%">
+                        <div class="12u">
+                          <input type="submit" class="button" id="send-message" value="Send Message"></a>
+                        </div>
+                        <p id="form-result">&nbsp;</p>
+                      </div>
+                    </form>
+                  </section>
+                  <br>
+
+                </div>
+
+              <!-- Sidebar -->
+                <div id="sidebar" class="4u 12u(mobile)">
+                  <section>
+                    <ul class="info">
+                      <li>
+                        <h3>Mail</h3>
+                        <p><a href="mailto:{{ site.primary_email }}">{{ site.primary_email }}</a></p>
+                      </li>
+                      <!-- <li> -->
+                      <!--   <h3>Phone</h3> -->
+                      <!--   <p>(800) 000&#45;0000</p> -->
+                      <!-- </li> -->
+                    </ul>
+                  </section>
+                </div>
+
+            </div>
+          </div>
+        </div>
+
+      {% include footer.html %}
+
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

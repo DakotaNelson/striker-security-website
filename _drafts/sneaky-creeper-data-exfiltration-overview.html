@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<!--
+  Venue by Pixelarity
+  pixelarity.com @pixelarity
+  License: pixelarity.com/license
+-->
+<html>
+  <head>
+    <title>Sneaky-Creeper at BSides Las Vegas - Striker Security Blog</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+    <link href="http://strikersecurity.com/blog/sneaky-creeper-bslv-talk-data-exfiltration.html" rel="canonical" />
+  </head>
+  <body class="right-sidebar">
+    <div id="page-wrapper">
+
+      <!-- Header -->
+        <div id="header">
+          <div class="container">
+
+            <!-- Logo -->
+            <h1 id="logo"><a href="/"><img src="/images/striker-security-primary-120px.png"></img></a></h1>
+
+            <!-- Nav -->
+              <nav id="nav">
+                <ul>
+                  <li><a href="/blog/" id="nav-blog">Blog</a></li>
+                  <li><a href="/projects/" id="nav-projects">Projects</a></li>
+                  <li class="break"><a href="/services/" id="nav-services">Services</a></li>
+                  <li><a href="/contact/" id="nav-contact">Contact</a></li>
+                </ul>
+              </nav>
+
+          </div>
+        </div>
+
+      <!-- Main -->
+        <div id="main" class="light">
+          <div class="container">
+
+            <div class="row">
+
+              <!-- Content -->
+                <div id="content" class="8u 12u(mobile)">
+                  <article>
+                    <header>
+                      <img src="/images/glowing-bridge.jpg" width="100%"></img>
+                      <h2>A Framework for Command and Control</h2>
+                      <span class="byline">Introducing sneaky-creeper</span>
+                      <span><i>Dakota Nelson</i></span><br>
+                      <span><i>September 8, 2015</i></span>
+                    </header>
+
+                    <p>In August of 2015, I had the incredible opportunity to present alongside two others at BSides Las Vegas on command and control (C2) and data exfiltration (or infiltration) over publicly available cloud services.</p>
+
+                    <p>The talk covered sneaky-creeper, a <a href="https://github.com/DakotaNelson/sneaky-creeper" target="_blank">framework for C2 and data exfiltration</a> I've been working on with a small group of contributors.</p>
+
+                    <p>Our talk presents an overview of the framework, and briefly brushes on future work, but I'd like to go further with this post into where the framework stands.</p>
+
+                    <div class="videoWrapper">
+                      <iframe src="https://www.youtube.com/embed/tLkQH-ev2iw" frameborder="0" allowfullscreen></iframe>
+                    </div>
+
+                    <p>Before we begin, I'd like to thank John Strand for the original inspiration to pursue, in his words, "social media backdoors" - a tool for transferring illegitimate data over legitimate channels. I'd also like to thank the others who have worked on this framework - in no particular order, Byron Wasti, Bonnie Ishiguro, Nick Francisci, Davide Barbato, Gabriel Butterick, and Nora Mohamed.</p>
+
+                    <p>Alright, let's get started.</p>
+
+                    <p>I see a gap in the array of security tools available to penetration testers and red team members. There are projects for exploitation and post-exploitation like nobody's business - from Metasploit to the Veil Framework to Powershell Empire, getting into a network and establishing a firm foothold is aided by a vast array of excellent software. When it comes to C2 and data exfiltration, however, options are limited. Metasploit provides HTTP/S and TCP connections, and tools like dnscat allow for tunneling over interesting protocols such as DNS and IMAP. While these tools are fantastic, anything more than a simple HTTP/S or TCP connection directly to a C2 server requires third-party code, with its own configuration and headaches. Tools that go so far as to use publicly available services such as Twitter or GMail to hide their traffic (notably gcat) require their own custom implants and it's my understanding that because of this they don't see widespread use.</p>
+
+                    <p>On top of this, tactics and tools aimed at hard targets are shifting. A major example is Raphael Mudge's Cobalt Strike and its excellent <a href="http://www.advancedpentest.com/help-beacon" target="_blank">beacons</a>, which provide completely asynchronous command and control, allowing for a "low and slow" approach designed to drop attackers below the noise floor of a network. This is a capability I have yet to see extend much past commercial tools (with the notable exception of Powershell Empire from the Veris Group).</p>
+
+                    <p>In short, I believe C2 is an increasingly difficult component of the offensive process with little tooling available. Existing open-source offensive tools suffer from a scarcity or complete absence of asynchronous techniques, especially novel ones. Projects which currently implement these techniques require extensive setup and lack automation, and, as far as I can tell, projects focused on testing a spectrum of C2 methods for a network simply don't exist.</p>
+
+                    <h3>So what am I doing about it?</h3>
+
+                    <p><a href="https://github.com/DakotaNelson/sneaky-creeper" target="_blank">Sneaky-creeper</a> aims to fill as much of the tooling gap as possible. The framework is a python package which handles the management of modules that provide encoding or transfer of data - known as encoders and channels, respectively. It's designed to have an easy-to-use API and to be easily integrated into any python program.</p>
+
+                    <p>Sneaky-creeper reduces setup by providing a uniform interface to an array of C2 channels and techniques, and includes the concept of 'encoders', which allow for the munging of data in various ways before it's sent over the wire - all integrated, with no glue code required from the module developer. Several of the modules in the framework implement unusual techniques, such as using Twitter and Tumblr posts, or hiding data in music which is then uploaded to SoundCloud. Further development of techniques such as these is designed to be as easy as possible using the framework, which will, with luck, help increase innovation in C2 by preventing scaffolding work and reimplementations of the wheel.</p>
+
+                    <p>This is exciting, and we're continuing to work toward these goals, but there's still much work left undone - and a lot more work we're deliberately ignoring.</p>
+
+                    <h3>There's still a long way to go...</h3>
+
+                    <p>Sneaky-creeper has a very particular philosophy: it's a library, not a standalone tool. Existing implants have thousands of hours of invested effort - trying to add another implant built around new C2 methods seems wasteful. Quite simply, we cannot compete. The hope is that other projects will be able to integrate sneaky-creeper and by doing so implement a standard interface for new C2 methods without very much developer time - not only to immediately access a variety of C2 methods, but also new ones developed in the future. Through specialization, we can achieve leverage for our efforts.</p>
+
+                    <p>This vision still faces roadblocks. The effort required to standardize C2, even to a small extent, among several projects - or even one project - is immense. The reason these implants are so valuable is stability, which requires rock-solid performance from every component. Sneaky-creeper is honestly not there yet - we still have failing tests - but all good things take time.</p>
+
+                    <p>On top of code-level problems lie integration problems. Is python the right language? How do we reconcile a scripting with implants written in lower-level languages such as C?</p>
+
+                    <p>These questions still need answers - and we're always on the lookout for good ones. If you have any ideas, <a href="/contact">let us know</a>!</p>
+
+                    <br>
+                    <i>Was this useful? Consider giving us your email below so we can send you more great stuff!</i>
+
+                  </article>
+                </div>
+
+              <!-- Sidebar -->
+                <div id="sidebar" class="4u 12u(mobile)">
+
+                  <section>
+                    <header>
+                      <h2>Other Posts</h2>
+                    </header>
+                    <ul class="style1">
+                      <li><a href="/blog/posts/first-striker-security-invoice.html">First invoice!</a></li>
+                      <li><a href="/blog/posts/sneaky-creeper-bslv-talk-data-exfiltration.html">Sneaky-creeper Presented at BSides Las Vegas</a></li>
+                      <li><a href="/blog/posts/metasploit-exploit-stager-payload-sizes.html">Stagers, and Metasploit Payload Size</a></li>
+                    </ul>
+                    <a href="/contact/" class="button" id="contact-us-sidebar">Contact Us</a>
+                  </section>
+
+                </div>
+
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer -->
+        <div id="footer">
+          <div class="container">
+            <div class="row">
+
+              <!-- Email -->
+                <section class="4u 12u(mobile)">
+                  <h3>Email</h3>
+                  <a href="mailto:consulting@strikersecurity.com">consulting@strikersecurity.com</a>
+                </section>
+
+              <!-- Newsletter -->
+                <section class="4u 12u(mobile)">
+                  <h3>Subscribe</h3>
+                  <!-- Begin MailChimp Signup Form -->
+                  <div id="mc_embed_signup">
+                    <form action="//strikersecurity.us13.list-manage.com/subscribe/post?u=71f6cecdcfa2523e9ebd1a247&amp;id=e9bc173d18" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                      <div id="mc_embed_signup_scroll">
+
+                      <div class="mc-field-group">
+                      <input type="text" value="" name="EMAIL" class="text required email" id="mce-EMAIL" placeholder="Email Address">
+                      </div>
+
+                      <div id="mce-responses">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                      </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_71f6cecdcfa2523e9ebd1a247_e9bc173d18" tabindex="-1" value=""></div>
+                      <center>
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button submit">
+                      </center>
+                      </div>
+                    </form>
+                  </div>
+
+                  <!--End mc_embed_signup-->
+                </section>
+
+              <!-- <!&#45;&#45; Phone &#45;&#45;> -->
+              <!--   <section class="4u 12u(mobile)"> -->
+              <!--     <h3>Phone</h3> -->
+              <!--     <span>(000) 000&#45;000</span> -->
+              <!--   </section> -->
+
+            </div>
+          </div>
+        </div>
+
+      <!-- Copyright -->
+        <div id="copyright">
+          <div class="container">
+            Copyright &copy; Striker Security LLC. All rights reserved.
+          </div>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="/assets/js/jquery.min.js"></script>
+      <script src="/assets/js/jquery.dropotron.min.js"></script>
+      <script src="/assets/js/skel.min.js"></script>
+      <script src="/assets/js/util.js"></script>
+      <!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
+      <script src="/assets/js/main.js"></script>
+
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-81101403-1', 'auto');
+        ga('send', 'pageview');
+      </script>
+      <script src="/assets/js/custom.js"></script>
+
+  </body>
+</html>

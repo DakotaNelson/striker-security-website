@@ -1,0 +1,74 @@
+---
+title: Blog - Striker Security
+permalink: /blog/
+---
+<!DOCTYPE HTML>
+<!--
+  Venue by Pixelarity
+  pixelarity.com @pixelarity
+  License: pixelarity.com/license
+-->
+<html>
+  {% include head.html %}
+
+  <body class="right-sidebar">
+    <div id="page-wrapper">
+
+      {% include header.html %}
+
+      <!-- Main -->
+        <div id="main" class="light">
+          <div class="container">
+
+            <div class="row">
+
+              <!-- Content -->
+                <div id="content" class="8u 12u(mobile)">
+                  {% for post in site.posts %}
+                  <article>
+                    <header>
+                      <a href="{{ post.url }}"><img src="{{ post.banner | prepend: "/images/" }}" width="100%"></img></a>
+                      <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+                      <span class="byline">{{ post.byline }}</span>
+                      <span><i>{{ post.author }}</i></span><br>
+                      <span><i>{{ post.date | date: "%b %d, %Y" }}</i></span>
+                    </header>
+
+                    {{ post.excerpt }}
+
+                    <p><a href="{{ post.url }}">Read the rest...</a></p>
+
+
+                  </article>
+                  {% endfor %}
+                </div>
+
+              <!-- Sidebar -->
+                <div id="sidebar" class="4u 12u(mobile)">
+
+                  <section>
+                    <header>
+                      <h2>All Posts</h2>
+                    </header>
+                    <ul class="style1">
+                      {% for post in site.posts %}
+                      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                      {% endfor %}
+                    </ul>
+                    <a href="/contact/" class="button" id="contact-us-sidebar">Contact Us</a>
+                  </section>
+
+                </div>
+
+            </div>
+          </div>
+        </div>
+
+      {% include footer.html %}
+
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

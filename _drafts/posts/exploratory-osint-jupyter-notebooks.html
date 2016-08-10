@@ -6,15 +6,16 @@
 -->
 <html>
   <head>
-    <title>Pushpin-Web Social Media Monitoring - Striker Security</title>
+    <title>Exploratory OSINT With Jupyter Notebooks - Striker Security Blog</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="/assets/css/main.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+    <link href="http://www.strikersecurity.com/blog/sneaky-creeper-bslv-talk-data-exfiltration.html" rel="canonical" />
   </head>
-  <body class="no-sidebar">
+  <body class="right-sidebar">
     <div id="page-wrapper">
 
       <!-- Header -->
@@ -33,6 +34,7 @@
                   <li><a href="/contact/" id="nav-contact">Contact</a></li>
                 </ul>
               </nav>
+
           </div>
         </div>
 
@@ -40,29 +42,50 @@
         <div id="main" class="light">
           <div class="container">
 
-            <!-- Content -->
-              <div class="row">
-                <div id="content" class="12u">
+            <div class="row">
+
+              <!-- Content -->
+                <div id="content" class="8u 12u(mobile)">
                   <article>
                     <header>
-                      <h2>Pushpin-web</h2>
-                      <span class="byline">See social media in the real world</span>
-                      <p>Available on <a href="https://www.github.com/dakotanelson/pushpin-web" target="_blank">Github</a>!
+                      <img src="/images/road-ahead.jpg" width="100%"></img>
+                      <h2>Exploratory OSINT with Jupyter Notebooks</h2>
+                      <span class="byline">Because communication matters</span>
+                      <span><i>Dakota Nelson</i></span><br>
+                      <span><i>July 29, 2016</i></span>
                     </header>
 
-                    <h3>People are talking - are you listening?</h3>
-                    <p>Social media permeates modern society. Whether it's customers, competitors, or criminals, they're broadcasting to the world - and to you, if you listen.</p>
+                    <p>One of the most difficult parts of OSINT gathering (for me) is visualization and reporting of the data - and, worse, the process. Recording terminal output into terrible messy text files is far too raw to be of much use, and taking constant screenshots can be a pain - not to mention that the resulting images still require plenty of captioning, usually after the fact.</p>
 
-                    <p>Pushpin-web provides a simple and intuitive interface to keep an eye on social media around your real-world assets. While other platforms focus on marketing or branding with keyword-focused search, pushpin-web keeps its eyes on the physical world by collecting and displaying geotagged media near critical locations you designate.</p>
+                    <p>Thankfully, I get a lot of help from a development platform used heavily among the data science community known as Jupyter (formerly iPython Notebooks).</p>
 
-                    <center><img src="/images/pushpin-rapidcity-map.jpg" width="80%" alt="a screenshot of pushpin-web's interface showing pins representing social media around Rapid City South Dakota"></center>
-
-                    <p>Striker Security built pushpin-web from the ground up on behalf of Black Hills Information Security, the project's sponsor. Pushpin-web is open source software released under a permissive MIT license. Striker's customers can receive a private deployed instance, training, and development on the core open-source software or bespoke private modifications - <a href="/contact/" id="body-contact">contact us today</a> to get started.</p>
+                    <br>
+                    <i>Was this useful? Consider giving us your email below so we can send you more great stuff!</i>
 
                   </article>
                 </div>
-              </div>
 
+              <!-- Sidebar -->
+                <div id="sidebar" class="4u 12u(mobile)">
+
+                  <section>
+                    <header>
+                      <h2>Other Posts</h2>
+                    </header>
+                    <ul class="style1">
+                      <li><a href="/blog/">First invoice!</a></li>
+                      <li><a href="/blog/posts/twitter-monitoring-streaming-api.html">Easy Realtime Twitter Monitoring</a></li>
+                      <li><a href="/blog/posts/sneaky-creeper-bslv-talk-data-exfiltration.html">Sneaky-creeper Presented at BSides Las Vegas</a></li>
+                      <li><a href="#">Amet ornare in hendrerit in lectus</a></li>
+                      <li><a href="#">Consequat etiam lorem phasellus</a></li>
+                      <li><a href="#">Amet turpis, feugiat et sit amet</a></li>
+                    </ul>
+                    <a href="/contact/" class="button" id="contact-us-sidebar">Contact Us</a>
+                  </section>
+
+                </div>
+
+            </div>
           </div>
         </div>
 
@@ -74,7 +97,7 @@
               <!-- Email -->
                 <section class="4u 12u(mobile)">
                   <h3>Email</h3>
-                  <a href="mailto:consulting@strikersecurity.com" id="email">consulting@strikersecurity.com</a>
+                  <a href="mailto:consulting@strikersecurity.com">consulting@strikersecurity.com</a>
                 </section>
 
               <!-- Newsletter -->
@@ -104,11 +127,11 @@
                   <!--End mc_embed_signup-->
                 </section>
 
-              <!-- Phone -->
-                <!-- <section class="4u 12u(mobile)"> -->
-                <!--   <h3>Phone</h3> -->
-                <!--   <span>(000) 000&#45;000</span> -->
-                <!-- </section> -->
+              <!-- <!&#45;&#45; Phone &#45;&#45;> -->
+              <!--   <section class="4u 12u(mobile)"> -->
+              <!--     <h3>Phone</h3> -->
+              <!--     <span>(000) 000&#45;000</span> -->
+              <!--   </section> -->
 
             </div>
           </div>
@@ -130,6 +153,7 @@
       <script src="/assets/js/util.js"></script>
       <!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
       <script src="/assets/js/main.js"></script>
+
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

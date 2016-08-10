@@ -1,0 +1,68 @@
+---
+---
+<!DOCTYPE HTML>
+<!--
+  Venue by Pixelarity
+  pixelarity.com @pixelarity
+  License: pixelarity.com/license
+-->
+<html>
+
+  {% include head.html %}
+
+  <body class="right-sidebar">
+    <div id="page-wrapper">
+
+      {% include header.html %}
+
+      <!-- Main -->
+        <div id="main" class="light">
+          <div class="container">
+
+            <div class="row">
+
+              <!-- Content -->
+                <div id="content" class="8u 12u(mobile)">
+                  <article>
+                    <header>
+                      <img src="{{ page.banner | prepend: "/images/" }}" width="100%"></img>
+                      <h2>{{ page.title }}</h2>
+                      <span class="byline">{{ page.byline }}</span>
+                      <span><i>{{ page.author }}</i></span><br>
+                      <span><i>{{ page.date | date: "%b %d, %Y" }}</i></span>
+                    </header>
+
+                    {{ content }}
+
+                    <i>Was this useful? Consider giving us your email below so we can send you more great stuff!</i>
+
+                  </article>
+                </div>
+
+              <!-- Sidebar -->
+                <div id="sidebar" class="4u 12u(mobile)">
+
+                  <section>
+                    <header>
+                      <h2>Other Posts</h2>
+                    </header>
+                    <ul class="style1">
+                      {% for post in site.posts %}
+                      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                      {% endfor %}
+                  </section>
+
+                </div>
+
+            </div>
+          </div>
+        </div>
+
+      {% include footer.html %}
+
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>
