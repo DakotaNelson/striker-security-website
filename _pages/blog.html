@@ -27,7 +27,7 @@ permalink: /blog/
                   {% for post in site.posts %}
                   <article>
                     <header>
-                      <a href="{{ post.url }}"><img src="{{ post.banner | prepend: "/images/" }}" width="100%"></img></a>
+                      <a href="{{ post.url }}"><img src="{{ post.banner | prepend: "/images/blog-banners/" }}" width="100%"></img></a>
                       <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
                       <span class="byline">{{ post.byline }}</span>
                       <span><i>{{ post.author }}</i></span><br>
