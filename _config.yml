@@ -30,8 +30,13 @@ collections:
 
 defaults:
   - scope:
+      path: ""
       type: posts
     values:
+      title: ""
+      author: Dakota Nelson
+      byline: ""
+      banner: ""
       layout: blogpost
 
 # Build settings
