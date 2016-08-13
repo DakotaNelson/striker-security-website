@@ -7,13 +7,15 @@ byline: Keeping one finger on Twitter's pulse
 banner: none.jpg
 ---
 
-I've found myself needing to keep an eye on Twitter from time to time, either to track an ongoing event or to gather a large number of tweets for later analysis. Thankfully for the beginning OSINT practitioner (or the lazy expert), the Internet is packed with projects to collect tweets - you don't even need to write any code!
+I've found myself needing to keep an eye on Twitter from time to time, either to track an ongoing event or to gather a large number of tweets for later analysis. Thankfully for the beginning OSINT practitioner (or the lazy expert), the Internet is packed with projects to collect tweets - you don't even have to write any code!
+
+<!-- more -->
 
 So far, the simplest tool I've used is <a href="https://github.com/bwbaugh/twitter-corpus" target="_blank">twitter corpus</a> - and I love that it has no infrastructure requirements. While most of the options I saw required a database or custom code, twitter-corpus makes mining Twitter effortless and requires no programming and no other programs.
 
 For the curious, corpus is defined as "a collection of written texts, especially the entire works of a particular author or a body of writing on a particular subject." Let's go get everything Twitter has to say on a subject!
 
-We'll walk through using twitter-corpus, beginning to end. You'll need to use the command line, but if you've never used it before this is an easy place to start!
+In this tutorial we'll walk through using twitter-corpus from the level of a complete beginner, start to end. You'll need to use the command line, but if you've new to using it, this is a good place to start.
 
 ### Installation
 If you have git installed, you can clone twitter corpus <a href="https://github.com/bwbaugh/twitter-corpus" target="_blank">from Github</a> using `git clone https://github.com/bwbaugh/twitter-corpus.git`. If you're not sure what that meant, don't worry! You can get a zip file of all the code by visiting the page on Github and clicking the "Clone or download" button or <a href="https://github.com/bwbaugh/twitter-corpus/archive/master.zip">clicking here</a>. Unzip them into a folder somewhere you won't mind storing a lot of tweets.
@@ -50,11 +52,37 @@ pip install -r requirements.txt
 
 What's going on here? Glad you asked. The first line creates a place (python calls it a "virtual environment") to store and manage dependencies (software that twitter-corpus depends on - its writer is using other people's code so that they didn't have to write it all themselves). Once it's created, the second line activates this virtual environment so that things you install will end up there. Once that's done, the last line uses a tool called pip, which installs a list of requirements stored in `requirements.txt` given to us by the author of twitter-corpus.
 
-Whenever you go to run twitter-corpus in the future, if you haven't run `source venv/bin/activate` in the command line window you're using, you'll have to run it again.
+Whenever you go to run twitter-corpus in the future, if you haven't run `source venv/bin/activate` in the command line window you're using, you'll have to run it again. This tells python where to look to find the extra code twitter-corpus needs to run.
 
-Congratulations! You're all set up to mine twitter for data.
+Congratulations! You're all set up to mine twitter for whatever data you need. Let's get down to actually using this newfound power to gather some data.
 
 ### Usage
+
+The simplest way to run twitter-corpus is to head to the command line, change to the directory `twitter_corpus.py` is in (the same place you unzipped or cloned it to earlier), and run `python twitter_corpus.py > tweets.json'.
+
+If you have everything installed, you'll see this:
+
+Otherwise, you'll probably see one of these errors:
+
+If you see this:
+```
+python: can't open file 'twitter_corpus.py': [Errno 2] No such file or directory
+```
+It means the file `twitter_corpus.py` can't be found - which means you're in the wrong directory. Change to the one `twitter_corpus.py` is in and try again.
+
+If you see this:
+```
+Traceback (most recent call last):
+  File "twitter_corpus.py", line 37, in <module>
+    from tweepy import OAuthHandler
+ImportError: No module named tweepy
+```
+It means python can't find the right dependencies (in this case, a Twitter library called tweepy). Try running `source venv/bin/activate` or, if you already have, make sure you installed the dependencies as outlined above.
+
+If everything works, however, you'll see this:
+
+
+
 
 
 ### Coding Bonus: Search from the Config File
