@@ -10,7 +10,7 @@ Infosec is a way of life.
 
 I'm probably getting nods from half of the information security (infosec) industry after saying that, and a disgusted look from the other half. For better or for worse, and for undoubtedly an incredible variety of reasons, security is more than just a job for a huge number of people. What this means for the field is a whole different blog post, but it does certainly mean one thing:
 
-**Breaking into the industry is staggeringly difficult.**
+**Breaking into the security industry is staggeringly difficult for beginners.**
 
 As someone put it to me:
 
@@ -18,7 +18,7 @@ As someone put it to me:
 
 In other words, "how do I even get started?"
 
-This is definitely not going to be exhaustive, but below are some resources that I and others have found useful for getting started. (have more things you think should be added? <a href="/contact/" target="_blank">let me know</a>)
+This is definitely not going to be exhaustive, but below are some resources that I and others have found useful for our first adventures in IT security. (have more things you think should be added? <a href="/contact/" target="_blank">let me know</a>)
 
 
 ### Philosophy
@@ -50,7 +50,7 @@ One of the most difficult parts about security is that there's just so much scat
 ### In-Depth Introductions
 Want a comprehensive compendium of knowledge on a a topic? These are great ways to get started on an aspect of security without hopping frantically across the Internet.
 
-* In *Hacking the Xbox* , Andrew "bunnie" Huang provides an incredible book on hardware hacking detailing various ways to "enjoy a Microsoft Xbox game console without the mindless tedium of playing video games." A free copy has been released by the author at [http://bunniefoo.com/nostarch/HackingTheXbox_Free.pdf](http://bunniefoo.com/nostarch/HackingTheXbox_Free.pdf).
+* In *Hacking the Xbox* , Andrew "bunnie" Huang provides an incredible book introducing hardware hacking and detailing various ways to "enjoy a Microsoft Xbox game console without the mindless tedium of playing video games." A free copy has been released by the author at [http://bunniefoo.com/nostarch/HackingTheXbox_Free.pdf](http://bunniefoo.com/nostarch/HackingTheXbox_Free.pdf).
 * Ever wondered how exploits actually work? [*Hacking: The Art of Exploitation*](https://www.nostarch.com/hacking2.htm) is a great place to start. I've heard of people avoiding this book due to the somewhat campy title - something something don't judge a book by its cover.
 * Want to know how to do offensive security professionally? Penetration testing is real, and Georgia Weidman shows you how in [*Penetration Testing: A Hands-on Introduction to Hacking*](https://www.nostarch.com/pentesting). (I hear if you use code GEORGIA at checkout good things will happen)
 * [http://blog.cobaltstrike.com/2015/09/30/advanced-threat-tactics-course-and-notes/]
