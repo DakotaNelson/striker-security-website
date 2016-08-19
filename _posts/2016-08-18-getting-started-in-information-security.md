@@ -6,6 +6,8 @@ excerpt_separator: <!-- more -->
 byline: Not a journey for the faint of heart
 banner: feet-falling.jpg
 layout: blogpost
+share_text: "Want to get started in information security? Get some tips and resources at https://strikersecurity.com/blog/getting-started-in-information-security/"
+tweet: "Want to get started in information security? Get some tips and resources from @jerkota at https://strikersecurity.com/blog/getting-started-in-information-security/ %23infosec %23jobs"
 ---
 Infosec is a way of life.
 
@@ -25,13 +27,14 @@ Below are some resources that I and others have found useful for our first adven
 
 Keep in mind, though, as you read through the resources below, that security is an *enormous* field. Nobody can understand it all, much less be an expert at everything. Does that sound intimidating? It shouldn't - because you don't *have* to understand it all. Poke around in the stuff below. Look at the things that seem interesting. Skim aggressively. And when you find something you love? Dive in!
 
-You don't have to be an expert at everything. At the end of the day, you just have to be able to learn. That's one of the reasons most of the people in the industry love what they do so much - if you don't, the amount of time spent immersed in new knowledge is overwhelming. You have to at least love to learn, because that's what you'll be doing, day in and day out.
+At the end of the day, you just have to be able to learn. That's one of the reasons most of the people in the industry love what they do so much - if you don't, the amount of time spent immersed in new knowledge is overwhelming. You have to love learning, because that's what you'll be doing, day in and day out.
 
 
 ## Philosophy
-Nope, I'm not joking. Well, maybe a little - here's a great overview of the field that is information security and how to get started.
+Nope, I'm not joking. Well, maybe a little - these articles provdie a great overview of the field that is information security and how to get started.
 
 * Derek Banks at Black Hills Infosec talks about the path to developing your "Hacking Kung Fu": [http://www.blackhillsinfosec.com/?p=4655](http://www.blackhillsinfosec.com/?p=4655)
+* Parisa Tabriz at Google gives a great overview of security with plenty of career advice: [https://medium.freecodecamp.com/so-you-want-to-work-in-security-bc6c10157d23#.oc408ew0a]()
 
 
 ## News, Events, Etc.
