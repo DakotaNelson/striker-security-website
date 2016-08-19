@@ -31,7 +31,7 @@ At the end of the day, you just have to be able to learn. That's one of the reas
 
 
 ## Philosophy
-Nope, I'm not joking. Well, maybe a little - these articles provdie a great overview of the field that is information security and how to get started.
+Nope, I'm not joking. Well, maybe a little - these articles provide a great overview of the field that is information security and how to get started.
 
 * Derek Banks at Black Hills Infosec talks about the path to developing your "Hacking Kung Fu": [http://www.blackhillsinfosec.com/?p=4655](http://www.blackhillsinfosec.com/?p=4655)
 * Parisa Tabriz at Google gives a great overview of security with plenty of career advice: [https://medium.freecodecamp.com/so-you-want-to-work-in-security-bc6c10157d23#.oc408ew0a]()
