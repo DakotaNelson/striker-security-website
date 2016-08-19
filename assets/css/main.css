@@ -27,6 +27,23 @@
   }
 
   ol, ul {
+  }
+
+  #content ul {
+    color: #2E3141;
+    font-size: 16px;
+    padding-left: 2em;
+  }
+
+  #content h2 {
+    padding-top: 2em;
+  }
+
+  #content header h2 {
+    padding-top: 0px;
+  }
+
+  ul.info {
     list-style: none;
   }
 
