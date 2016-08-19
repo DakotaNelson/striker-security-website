@@ -1,6 +1,6 @@
 ---
 title: Getting Started in Information Security
-date: '2016-08-16 19:29:00'
+date: '2016-08-18 19:29:00'
 author: Dakota Nelson
 excerpt_separator: <!-- more -->
 byline: Not a journey for the faint of heart
@@ -17,12 +17,11 @@ I'm probably getting nods from half of the information security (infosec) indust
 
 As someone put it to me:
 
-
 > I have tried to learn the basics of it but it seems like an industry that you must love so that you would know about it ... and I am struggling with this task.  
 
 In other words, "how do I even get started?"
 
-This is definitely not going to be exhaustive, but below are some resources that I and others have found useful for our first adventures in IT security. (have more things you think should be added? <a href="/contact/" target="_blank">let me know</a>)
+Below are some resources that I and others have found useful for our first adventures in IT security. (have more things you think should be added? <a href="/contact/" target="_blank">let me know</a>)
 
 Keep in mind, though, as you read through the resources below, that security is an *enormous* field. Nobody can understand it all, much less be an expert at everything. Does that sound intimidating? It shouldn't - because you don't *have* to understand it all. Poke around in the stuff below. Look at the things that seem interesting. Skim aggressively. And when you find something you love? Dive in!
 
@@ -30,7 +29,7 @@ You don't have to be an expert at everything. At the end of the day, you just ha
 
 
 ## Philosophy
-Nope, I'm not joking. Well, maybe a little - these articles give great overviews of the field that is information security and how to get started.
+Nope, I'm not joking. Well, maybe a little - here's a great overview of the field that is information security and how to get started.
 
 * Derek Banks at Black Hills Infosec talks about the path to developing your "Hacking Kung Fu": [http://www.blackhillsinfosec.com/?p=4655](http://www.blackhillsinfosec.com/?p=4655)
 
