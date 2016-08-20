@@ -82,6 +82,7 @@ Seriously - learning from attackers is a great way to understand what the curren
 Actually putting your knowledge to use is the best way to learn, but hacking especially can be a bit difficult to get experience in without breaking a law or two. Here are some ideas on how to do it the right way.
 
 * For those just starting out in security, [https://picoctf.com/](https://picoctf.com/) is a great starting point. It's meant to be beginner-friendly, and provides a very polished experience to learn some hands-on security techniques.
+* In the same vein, [http://pwnable.kr](http://pwnable.kr) provides great introductory challenges with slightly less gamification.
 * What's a CTF, anyway? [https://trailofbits.github.io/ctf/ctf.html](https://trailofbits.github.io/ctf/ctf.html) provides an excellent introduction.
 * Now that you know what CTFs are, want a big list of them? Look no further than [http://security.stackexchange.com/questions/3592/what-hacking-competitions-challenges-exist](http://security.stackexchange.com/questions/3592/what-hacking-competitions-challenges-exist).
 * Perhaps you'd like all the CTFs on a calendar? Don't worry, [https://ctftime.org/](https://ctftime.org/) has you covered.
