@@ -5,6 +5,7 @@ author: Dakota Nelson
 excerpt_separator: <!-- more -->
 byline: "Introducing sneaky-creeper"
 banner: glowing-bridge.jpg
+description: Sneaky-creeper allows for easily writing data exfiltration modules that use third-party cloud services to evade network perimeter defenses.
 share_text: "C2 framework presented at BSides Las Vegas called sneaky-creeper lets you exfiltrate data over social media! Get more info at https://strikersecurity.com/blog/sneaky-creeper-data-exfiltration-overview/"
 tweet: "C2 framework called sneaky-creeper lets you exfiltrate data over social media! https://strikersecurity.com/blog/sneaky-creeper-data-exfiltration-overview/"
 ---

@@ -6,6 +6,7 @@ excerpt_separator: <!-- more -->
 byline: Not a journey for the faint of heart
 banner: feet-falling.jpg
 layout: blogpost
+description: Interested in breaking into the information security industry? Get started with some of these resources.
 share_text: "Want to get started in information security? Get some tips and resources at https://strikersecurity.com/blog/getting-started-in-information-security/"
 tweet: "Want to get started in information security? Get some tips and resources from @jerkota at https://strikersecurity.com/blog/getting-started-in-information-security/ %23infosec %23jobs"
 ---

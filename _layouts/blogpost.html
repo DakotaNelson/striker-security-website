@@ -8,7 +8,17 @@
 -->
 <html>
 
+  <head>
   {% include head.html %}
+
+  <!-- OpenGraph meta tags -->
+  <meta name="description" content="{{ page.description }}" />
+
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:type" content="blog" />
+  <meta property="og:image" content="{{ page.banner | prepend: "/images/blog-banners/" }}" />
+  </head>
 
   <body class="right-sidebar">
     <div id="page-wrapper">
