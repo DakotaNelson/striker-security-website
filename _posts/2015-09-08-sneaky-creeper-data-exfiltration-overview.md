@@ -5,6 +5,8 @@ author: Dakota Nelson
 excerpt_separator: <!-- more -->
 byline: "Introducing sneaky-creeper"
 banner: glowing-bridge.jpg
+share_text: "C2 framework presented at BSides Las Vegas called sneaky-creeper lets you exfiltrate data over social media! Get more info at https://strikersecurity.com/blog/sneaky-creeper-data-exfiltration-overview/"
+tweet: "C2 framework called sneaky-creeper lets you exfiltrate data over social media! https://strikersecurity.com/blog/sneaky-creeper-data-exfiltration-overview/"
 ---
 
 In August of 2015, I had the incredible opportunity to present alongside two others at BSides Las Vegas on command and control (C2) and data exfiltration (or infiltration) over publicly available cloud services.
@@ -31,7 +33,7 @@ I see a gap in the array of security tools available to penetration testers and 
 When it comes to C2 and data exfiltration, however, options are limited. Metasploit provides HTTP/S and TCP connections, and tools like dnscat allow for tunneling over interesting protocols such as DNS and IMAP. While these tools are fantastic, anything more than a simple HTTP/S or TCP connection directly to a C2 server requires chaining multiple tools, which comes with its own configuration and headaches. Tools that go so far as to use publicly available services such as Twitter or GMail to hide their traffic (notably gcat) require their own custom implants - because of this, they don't see widespread use.
 
 
-The lack of C2 capability might not be a problem except that tactics and tools aimed at hard targets are shifting. A major example is Raphael Mudge's Cobalt Strike and its excellent <a href="http://www.advancedpentest.com/help-beacon" target="_blank">beacons</a>, which provide completely asynchronous command and control, allowing for a "low and slow" approach designed to drop attackers below the noise floor of a network. This is a capability I have yet to see extend much past commercial tools (with the notable exception of Powershell Empire from the Veris Group).
+The lack of C2 capability might not be a problem if the status quo was significantly ahead of the defense (which, in all fairness, it currently is for most enterprises), but tactics and tools aimed at hard targets are shifting. A major example is Raphael Mudge's Cobalt Strike and its excellent <a href="http://www.advancedpentest.com/help-beacon" target="_blank">beacons</a>, which provide completely asynchronous command and control, allowing for a "low and slow" approach designed to drop attackers below the noise floor of a network. This is a capability I have yet to see extend much past commercial tools (with the notable exception of Powershell Empire from the Veris Group).
 
 
 In short, I believe C2 is an increasingly difficult component of the offensive process with little tooling available. Existing open-source offensive tools suffer from a scarcity or complete absence of asynchronous techniques, especially novel ones. Projects which currently implement these techniques require extensive setup and lack automation, and, as far as I can tell, projects focused on testing a spectrum of C2 methods for a network simply don't exist.

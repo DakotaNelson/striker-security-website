@@ -1505,6 +1505,8 @@
 
   ul.style1 {
     padding-top: 1em;
+    padding-left: 20px;
+    padding-bottom: 20px;
   }
 
     ul.style1 > li {

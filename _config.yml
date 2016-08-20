@@ -38,7 +38,10 @@ defaults:
       author: Dakota Nelson
       byline: ""
       banner: ""
+      excerpt_separator: <!-- more -->
       layout: blogpost
+      share_text: ""
+      tweet: ""
 
 # Build settings
 markdown: kramdown

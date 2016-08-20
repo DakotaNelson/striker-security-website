@@ -4,6 +4,8 @@ date:   2016-07-01
 author: Dakota Nelson
 byline: And so, it begins
 banner: road-ahead.jpg
+share_text: "Striker Security sent out its first invoice in July 2016! https://strikersecurity.com/blog/first-striker-security-invoice/"
+tweet: "Striker Security sent out its first invoice in July 2016! https://strikersecurity.com/blog/first-striker-security-invoice/"
 ---
 
 Today is an exciting landmark for Striker - our first invoice just went out!
