@@ -1,8 +1,8 @@
 ---
-title: Getting Started with Recon-ng
-date: '2016-08-10 16:23:47'
+title: Getting Started in OSINT with Recon-ng
+date: '2016-08-10 00:00:00'
 author: Dakota Nelson
-byline: ""
-banner: ""
+byline: ''
+banner: ''
 layout: blogpost
 ---
