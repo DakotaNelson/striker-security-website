@@ -76,7 +76,7 @@ There are security conferences across the world where people come together to ta
 ## The Black Market
 Seriously - learning from attackers is a great way to understand what the current cutting-edge techniques are. Adversaries have strong incentives - making a living, not getting caught - to be the best they possibly can. Besides, these are the people you'll likely be defending against someday. It's best to get to know them.
 
-* After breaching Italian security company Hacking Team, a hacker callilng themselves Phineas Fisher wrote this partly-political mostly-technical article about how it was done: [https://ghostbin.com/paste/6kho7](https://ghostbin.com/paste/6kho7)
+* After breaching Italian security company Hacking Team, a hacker calling themselves Phineas Fisher wrote this partly-political mostly-technical article about how it was done: [https://ghostbin.com/paste/6kho7](https://ghostbin.com/paste/6kho7)
 * This groundbreaking report argues that Mandiant, a company which has since been purchased, was able to identify a unit of the Chinese military which is "one of the most persistent of China’s cyber threat actors." The report is dense, and you can find it at [https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf](https://www.fireeye.com/content/dam/fireeye-www/services/pdfs/mandiant-apt1-report.pdf).
 
 ## Hands-On Practice
