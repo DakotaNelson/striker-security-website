@@ -28,8 +28,6 @@ Below are some resources that I and others have found useful for our first adven
 
 Keep in mind, though, as you read through the resources below, that security is an *enormous* field. Nobody can understand it all, much less be an expert at everything. Does that sound intimidating? It shouldn't - because you don't *have* to understand it all. Poke around in the stuff below. Look at the things that seem interesting. Skim aggressively. And when you find something you love? Dive in!
 
-At the end of the day, you just have to be able to learn. That's one of the reasons most of the people in the industry love what they do so much - if you don't, the amount of time spent immersed in new knowledge is overwhelming. You have to love learning, because that's what you'll be doing, day in and day out.
-
 
 ## Philosophy
 Nope, I'm not joking. Well, maybe a little - these articles provide a great overview of the field that is information security and how to get started.
