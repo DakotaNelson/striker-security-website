@@ -49,4 +49,4 @@ defaults:
 markdown: kramdown
 theme: minima
 
-exclude: [vendor]
+exclude: [vendor, page-templates, px-venue, full-templates, test.sh, README.md, Gemfile, Gemfile.lock]

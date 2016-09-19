@@ -36,7 +36,7 @@
                 <div id="content" class="8u 12u(mobile)">
                   <article>
                     <header>
-                      <img src="{{ page.banner | prepend: "/images/blog-banners/" }}" width="100%"></img>
+                      <img src="{{ page.banner | prepend: "/images/blog-banners/" }}" width="100%" alt="A banner for the blog post - it's mean to look good but not really mean anything."></img>
                       <h2>{{ page.title }}</h2>
                       <span class="byline">{{ page.byline }}</span>
                       <span><i>{{ page.author }}</i></span><br>
@@ -55,11 +55,11 @@
 
                   <section>
                     <header>
-                      <h2>All Posts<a href="{{ site.url }}/feed.xml" target="_blank"><img id="rss-icon" src="{{ site.url }}/images/rss-icon.jpg" /></a></h2>
+                      <h2 id="all-posts">All Posts<a href="{{ site.url }}/feed.xml" target="_blank"><img id="rss-icon" src="{{ site.url }}/images/rss-icon.jpg" alt="The logo for RSS" /></a></h2>
                     </header>
                     <ul class="style1">
                       {% for post in site.posts %}
-                      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                      <li id="{{ post.title | slugify }}"><a href="{{ post.url }}">{{ post.title }}</a></li>
                       {% endfor %}
                     </ul>
                     <!-- <a href="/contact/" class="button" id="contact&#45;us&#45;sidebar">Contact Us</a> -->
