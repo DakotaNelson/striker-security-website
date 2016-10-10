@@ -1,5 +1,5 @@
 ---
-title: Introduction to OSINT with Recon-ng
+title: "Introduction to OSINT: Recon-ng Tutorial"
 date: '2016-10-06 00:00:00'
 author: Dakota Nelson
 byline: Learn to use this framework to automate OSINT collection
@@ -23,6 +23,14 @@ Using tools like recon-ng, you can automate your open source intelligence collec
 </div>
 
 This how-to video gets you up to speed with a quick introduction to recon-ng, a great framework for collecting OSINT automatically, and then goes straight into an example so you can see how the information gathering process works in practice.
+
+In it, you'll learn:
+
+ * how to run recon-ng and use the built-in help system
+ * the basics of using workspaces to organize your OSINT engagements and keep records
+ * methodology for starting your investigation by manually adding data and API keys to build from
+ * techniques for conducting real-world reconnaissance using recon-ng's built-in capabilities, including how to choose which recon-ng modules to run
+ * analysis methods to query recon-ng's database and view the intelligence you've collected
 
 <p style="background-color:rgba(188,110,110,.6); padding: 8px;">
 PLUS, download this <a href="https://www.getdrip.com/forms/38118976/submissions/new" data-drip-show-form="38118976">recon-ng cheatsheet</a> to get a description of every module in one convenient PDF.
