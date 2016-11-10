@@ -16,6 +16,8 @@ I've been busy lately writing a comprehensive 4-part series on steganography and
 
 The step-by-step guide takes you from the fundamentals of steganography all the way through a full image steganography example. Not only that, but it also includes a steganography tool in Python for you to use - and explains it!
 
+<!-- more -->
+
 You can find the guide in four parts on the Black Hills Information Security blog, starting with [part 1](http://www.blackhillsinfosec.com/?p=5338).
 
 Interested in a faster way to get through all 4 parts and learn steganography techniques more quickly? Download a single PDF of all the articles.
