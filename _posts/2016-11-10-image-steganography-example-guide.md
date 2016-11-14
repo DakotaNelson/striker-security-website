@@ -11,13 +11,11 @@ share_text: 'Learn to hide data in images with steganography: '
 tweet: 'Learn to hide data in images with steganography: '
 layout: blogpost
 ---
-I've been busy lately writing a comprehensive 4-part series on steganography and error correcting codes on the Black Hills Information Security blog.
+I've been busy lately writing a comprehensive <a href="http://www.blackhillsinfosec.com/?p=5338" target="_blank">4-part series on steganography and error correcting codes</a> on the Black Hills Information Security blog.
 
 The step-by-step guide takes you from the fundamentals of steganography all the way through a full image steganography example. Not only that, but it also includes a steganography tool in Python for you to use - and explains it!
 
 <!-- more -->
-
-You can find the guide in four parts on the Black Hills Information Security blog, starting with <a href="http://www.blackhillsinfosec.com/?p=5338" target="_blank">part 1</a>.
 
 <p style="background-color:rgba(188,110,110,.6); padding: 8px;">
 Want an easier way to get through all 4 parts and learn steganography techniques more quickly? <a href="https://www.getdrip.com/forms/19009757/submissions/new" data-drip-show-form="19009757">Download a PDF</a> of all the articles to get a comprehensive, 30-page steganography guide that will show you every step of the way.
