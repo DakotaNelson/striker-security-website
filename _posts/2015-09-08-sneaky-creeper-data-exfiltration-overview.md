@@ -13,7 +13,7 @@ tweet: "C2 framework called sneaky-creeper lets you exfiltrate data over social 
 In August of 2015, I had the incredible opportunity to present alongside two others at BSides Las Vegas on command and control (C2) and data exfiltration (or infiltration) over publicly available cloud services.
 
 
-The talk covered sneaky-creeper, a <a href="https://github.com/DakotaNelson/sneaky-creeper" target="_blank">framework for C2 and data exfiltration</a> I've been working on with a small group of contributors.
+The talk covered sneaky-creeper, a <a href="https://strikersecurity.com/projects/sneaky-creeper-covert-data-exfiltration/" target="_blank">framework for C2 and data exfiltration</a> I've been working on with a small group of contributors.
 
 
 We present an overview of the framework, and briefly brush on future work, but I'd like to go further with this post into where the framework stands.
