@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/dakota
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://strikersecurity.com
+  * I am dakota (https://keybase.io/dakota) on keybase.
+  * I have a public key ASBSsFTWn6JYoehXO-SFEFRb_Rd1dkOPh8GNhzRA37tbCQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101305dc50960de4d53bc49913c783d66482feeecf8237a3451d6dd010439c5ba200a",
+            "host": "keybase.io",
+            "kid": "012052b054d69fa258a1e8573be48510545bfd177576438f87c18d873440dfbb5b090a",
+            "uid": "b2c03f7e6a98dcfeb568cd82d3de6919",
+            "username": "dakota"
+        },
+        "service": {
+            "hostname": "strikersecurity.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1487175276,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1487175266,
+        "hash": "d0a3055aed9f23ffd757745ef4bfb6407f740c479f2ce2a6d5416a74d98296fe3396a8a84e8b9472da362ddd830fb120ed8220d45a1d049d9d364a75ed889463",
+        "seqno": 892655
+    },
+    "prev": "c5314d8049d5e39a9c9728b62230c7adec99b585095fc37baa4a2602ad1e9964",
+    "seqno": 34,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgUrBU1p+iWKHoVzvkhRBUW/0XdXZDj4fBjYc0QN+7WwkKp3BheWxvYWTFAvp7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMzA1ZGM1MDk2MGRlNGQ1M2JjNDk5MTNjNzgzZDY2NDgyZmVlZWNmODIzN2EzNDUxZDZkZDAxMDQzOWM1YmEyMDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNTJiMDU0ZDY5ZmEyNThhMWU4NTczYmU0ODUxMDU0NWJmZDE3NzU3NjQzOGY4N2MxOGQ4NzM0NDBkZmJiNWIwOTBhIiwidWlkIjoiYjJjMDNmN2U2YTk4ZGNmZWI1NjhjZDgyZDNkZTY5MTkiLCJ1c2VybmFtZSI6ImRha290YSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoic3RyaWtlcnNlY3VyaXR5LmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE4In0sImN0aW1lIjoxNDg3MTc1Mjc2LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0ODcxNzUyNjYsImhhc2giOiJkMGEzMDU1YWVkOWYyM2ZmZDc1Nzc0NWVmNGJmYjY0MDdmNzQwYzQ3OWYyY2UyYTZkNTQxNmE3NGQ5ODI5NmZlMzM5NmE4YTg0ZThiOTQ3MmRhMzYyZGRkODMwZmIxMjBlZDgyMjBkNDVhMWQwNDlkOWQzNjRhNzVlZDg4OTQ2MyIsInNlcW5vIjo4OTI2NTV9LCJwcmV2IjoiYzUzMTRkODA0OWQ1ZTM5YTljOTcyOGI2MjIzMGM3YWRlYzk5YjU4NTA5NWZjMzdiYWE0YTI2MDJhZDFlOTk2NCIsInNlcW5vIjozNCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAvaNH29t/DhC0jnE7TIKvJSYqIA194OO5EPOQxy5WwFLeklA3DxTHLbh/vBGHUGjkx0fh5ZxEElGbq5FGNkXoNqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgvm8DGDoNKsXz5dnuf3BMtM6K6Hx2Au2ieuz3bYwe8ByjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dakota
+
+==================================================================
