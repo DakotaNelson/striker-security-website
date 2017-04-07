@@ -1,0 +1,57 @@
+---
+---
+<html>
+
+  <head>
+  {% include head.html %}
+
+  <!-- OpenGraph meta tags -->
+  <meta name="description" content="{{ page.description }}" />
+
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="{{ page.description }}" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:type" content="blog" />
+  <meta property="og:image" content="{{ site.url }}/images/blog-banners/{{ page.banner }}" />
+  </head>
+
+  <body class="no-sidebar">
+    <div id="page-wrapper">
+
+      {% include header-lite.html %}
+
+      <!-- Main -->
+        <div id="main" class="light">
+          <div class="container">
+            <div class="row">
+
+              <!-- Content -->
+              <style>
+              article p {font-size:24px; line-height:35px;}
+              </style>
+
+              <div id="content" class="12u">
+                <article style="text-align:justify;">
+                  <center style="padding-bottom: 50px;">
+                    <header>
+                      <h2 style="font-size: 3.8em;">{{ page.headline }}</h2>
+                    </header>
+                    <img src="http://placehold.it/787x443"></img>
+                  </center>
+
+                  {{ content }}
+
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      {% include footer-lite.html %}
+
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

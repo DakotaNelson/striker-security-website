@@ -27,6 +27,8 @@ collections:
   posts:
     output: true
     permalink: /blog/:title/
+  landingpages:
+    output: true
 
 defaults:
   - scope:
@@ -42,6 +44,11 @@ defaults:
       description: ""
       share_text: ""
       tweet: ""
+  - scope:
+      path: ""
+      type: landingpages
+    values:
+      layout: landing-page
 
 # Build settings
 markdown: kramdown
