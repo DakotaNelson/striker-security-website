@@ -36,7 +36,10 @@
                     <header>
                       <h2 style="font-size: 3.8em;">{{ page.headline }}</h2>
                     </header>
-                    <img src="http://placehold.it/787x443"></img>
+                    {% if page.video == null %}
+                    {% else %}
+                      <img src={{ page.video }}></img>
+                    {% endif %}
                   </center>
 
                   {{ content }}

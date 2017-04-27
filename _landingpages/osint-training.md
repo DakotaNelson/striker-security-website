@@ -2,8 +2,11 @@
 title: Learn to Build OSINT Tools
 permalink: /build-osint-tools
 headline: Become an Open Source Intelligence Pro
-<!-- headline: Discover a new World of OSINT Possibilities -->
+video: "http://placehold.it/787x443"
 ---
+
+<!-- headline: Discover a new World of OSINT Possibilities -->
+<!-- TODO set up youtube embedding instead of placeholder -->
 
 Open source intelligence is a delicate business. Mounds of data, endless dead ends and useless distractions, and clues hidden in every nook and cranny of the web.
 
