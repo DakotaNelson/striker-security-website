@@ -5,8 +5,15 @@ headline: Become an Open Source Intelligence Pro
 video: "http://placehold.it/787x443"
 ---
 
-<!-- headline: Discover a new World of OSINT Possibilities -->
 <!-- TODO set up youtube embedding instead of placeholder -->
+
+Google Experiments
+<style>.async&#45;hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async&#45;hide','dataLayer',4000,
+{'GTM&#45;TT7S4LG':true});</script>
 
 Open source intelligence is a delicate business. Mounds of data, endless dead ends and useless distractions, and clues hidden in every nook and cranny of the web.
 
