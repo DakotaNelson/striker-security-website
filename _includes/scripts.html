@@ -8,6 +8,7 @@
 <script src="{{ site.url }}/assets/js/util.js"></script>
 <!--[if lte IE 8]><script src="{{ site.url }}/assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="{{ site.url }}/assets/js/main.js"></script>
+
 <!-- Drip -->
 <script type="text/javascript">
   var _dcq = _dcq || [];
@@ -22,12 +23,16 @@
   s.parentNode.insertBefore(dc, s);
   })();
 </script>
-<style>.async-hide { opacity: 0 !important} </style>
+
+<!-- Google Experiments -->
+<!-- <style>.async&#45;hide { opacity: 0 !important} </style> -->
 <!-- <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date; -->
 <!-- h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')}; -->
 <!-- (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c; -->
 <!-- })(window,document.documentElement,'async&#45;hide','dataLayer',4000, -->
 <!-- {'GTM&#45;TT7S4LG':true});</script> -->
+
+<!-- Google Analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -39,6 +44,8 @@
   ga('require', 'GTM-TT7S4LG');
   ga('send', 'pageview');
 </script>
+
+<!-- Mailchimp -->
 <script type="text/javascript">
   var $mcGoal = {'settings':{'uuid':'71f6cecdcfa2523e9ebd1a247','dc':'us13'}};
   (function() {
@@ -47,4 +54,22 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sp, s);
   })();
 </script>
+
+<!-- Facebook Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '784457851758891', {
+em: 'insert_email_variable'
+});
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=784457851758891&ev=PageView&noscript=1"
+/></noscript>
+
+<!-- Other JS -->
 <script src="{{ site.url }}/assets/js/custom.js"></script>

@@ -38,4 +38,12 @@ This class is still being designed - if you'd like to be a part of the creation 
 </form>
 </div>
 
+<script type="text/javascript">
+  $( "#mc-embedded-subscribe" ).click(function() {
+    fbq('track', 'Lead', {});
+    ga('send', 'event', 'MailingList', 'signup', 'OSINT Automation Course');
+  });
+</script>
+
+
 <!--End mc_embed_signup-->
