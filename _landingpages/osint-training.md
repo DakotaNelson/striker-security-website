@@ -20,9 +20,13 @@ Open source intelligence is a delicate business. Mounds of data, endless dead en
 
 This online, self-paced course will give you a step-by-step introduction to building your own tools to tame the OSINT wilderness and overcome those obstacles.
 
-By the time you finish, you'll have written code to help you conduct real-world investigations and have the skills and confidence to create and automate your way to OSINT success. Since the course is online, you can rewind, rewatch, and refer back to any part of the course that you find interesting (forever, for free - no monthly bills).
+By the time you finish, you'll have written code to help you conduct real-world investigations and have the skills and confidence to create and automate your way to OSINT success. Since everything is online, you can rewind, rewatch, and refer back to any part of the course that you find interesting (forever, for free - no monthly bills).
 
-This class is still being designed - if you'd like to be a part of the creation process (and get a steep discount when it goes live!) let me know below:
+I'm still designing this course, and I'd love to have you along for the ride. Put your email in the box below, and you'll get all of the following for free:
+
+* Exclusive previews of the course *as it's being created*
+* Inside access to the creation process, to make the course into what *you* want to see
+* Discounts on the full course when it goes live
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
@@ -46,11 +50,15 @@ This class is still being designed - if you'd like to be a part of the creation 
 </form>
 </div>
 
+
+
 <script type="text/javascript" defer="defer">
   $(document).ready(function() {
     $( "#mc-embedded-subscribe" ).click(function() {
       fbq('track', 'Lead', {});
       ga('send', 'event', 'MailingList', 'signup', 'OSINT Automation Course');
+      window._dcq = window._dcq || [];
+      window._dcq.push(["track", "OSINT Course Info Signup"]);
     });
   });
 </script>
