@@ -3,6 +3,7 @@ title: Learn to Build OSINT Tools
 permalink: /build-osint-tools
 headline: Become an Open Source Intelligence Pro
 video: "https://media.strikersecurity.com/osint_course_landing_final.webm"
+poster: "osint-course-video-still.jpg"
 ---
 
 <!-- TODO set up youtube embedding instead of placeholder -->

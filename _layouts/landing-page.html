@@ -39,7 +39,7 @@
                     </header>
                     {% if page.video == null %}
                     {% else %}
-                      <video style="width: 80%; max-width: 800px;" controls="controls" preload="auto" src="{{ page.video }}" type="video/webm">
+                      <video style="width: 80%; max-width: 800px;" controls="controls" preload="auto" src="{{ page.video }}" poster="/images/{{ page.poster }}" type="video/webm">
                         Sorry, your browser doesn't support embedded videos, but don't worry, you can <a href="{{ page.video }}">download it</a> and watch it on your desktop.
                       </video>
                     {% endif %}
