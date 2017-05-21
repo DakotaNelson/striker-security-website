@@ -13,6 +13,7 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:type" content="blog" />
   <meta property="og:image" content="{{ site.url }}/images/blog-banners/{{ page.banner }}" />
+  {% include scripts.html %}
   </head>
 
   <body class="no-sidebar">
@@ -38,7 +39,9 @@
                     </header>
                     {% if page.video == null %}
                     {% else %}
-                      <img src={{ page.video }}></img>
+                      <video style="width: 80%; max-width: 800px;" controls="controls" preload="auto" src="{{ page.video }}" type="video/webm">
+                        Sorry, your browser doesn't support embedded videos, but don't worry, you can <a href="{{ page.video }}">download it</a> and watch it on your desktop.
+                      </video>
                     {% endif %}
                   </center>
 
@@ -53,8 +56,5 @@
       {% include footer-lite.html %}
 
     </div>
-
-    {% include scripts.html %}
-
   </body>
 </html>

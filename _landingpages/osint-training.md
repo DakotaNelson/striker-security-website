@@ -2,7 +2,7 @@
 title: Learn to Build OSINT Tools
 permalink: /build-osint-tools
 headline: Become an Open Source Intelligence Pro
-video: "http://placehold.it/787x443"
+video: "https://media.strikersecurity.com/osint_course_landing_final.webm"
 ---
 
 <!-- TODO set up youtube embedding instead of placeholder -->
@@ -12,7 +12,7 @@ video: "http://placehold.it/787x443"
 <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
 h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
-})(window,document.documentElement,'async-hide','dataLayer',4000,
+})(window,document.documentElement,'async-hide','dataLayer',500,
 {'GTM-TT7S4LG':true});</script>
 
 Open source intelligence is a delicate business. Mounds of data, endless dead ends and useless distractions, and clues hidden in every nook and cranny of the web.
@@ -45,10 +45,12 @@ This class is still being designed - if you'd like to be a part of the creation 
 </form>
 </div>
 
-<script type="text/javascript">
-  $( "#mc-embedded-subscribe" ).click(function() {
-    fbq('track', 'Lead', {});
-    ga('send', 'event', 'MailingList', 'signup', 'OSINT Automation Course');
+<script type="text/javascript" defer="defer">
+  $(document).ready(function() {
+    $( "#mc-embedded-subscribe" ).click(function() {
+      fbq('track', 'Lead', {});
+      ga('send', 'event', 'MailingList', 'signup', 'OSINT Automation Course');
+    });
   });
 </script>
 
