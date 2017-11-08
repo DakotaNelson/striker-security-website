@@ -6,8 +6,6 @@ video: "https://media.strikersecurity.com/osint_course_landing_final.webm"
 poster: "osint-course-video-still.jpg"
 ---
 
-<!-- TODO set up youtube embedding instead of placeholder -->
-
 <!-- Google Experiments -->
 <style>.async-hide { opacity: 0 !important} </style>
 <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
