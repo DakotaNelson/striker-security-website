@@ -27,6 +27,11 @@
   }
 
   ol, ul {
+    margin-bottom: 1em;
+    margin-left: 2.5em;
+    line-height: 1.8;
+    color: #2E3141;
+    font-size: 20px;
   }
 
   #content ul {
@@ -1465,6 +1470,7 @@
   }
 
   article p {
+    line-height: 1.8;
     color: #2E3141;
     font-size: 20px;
   }
@@ -1507,6 +1513,13 @@
       }
 
 /* Lists */
+
+  #sidebar ul {
+    line-height: 1.2em;
+    margin-left: .5em;
+    font-size: 18px;
+    padding-top: 0;
+  }
 
   ul.style1 {
     padding-top: 1em;
